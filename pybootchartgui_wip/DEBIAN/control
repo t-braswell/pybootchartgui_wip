@@ -14,8 +14,7 @@ Description: viewer for boot process performance analysis results
  This is version 0.14.4-3.2, a fork of the current (0.14.4-3.1) stored in 
  the debian repo. The main change is an update on requirements/dependencies:
  python (2.7 or 2.8) has been replaced by python3, python-cairo has been 
- replaced by python3-cairo, and python-gtk2 has been replaced by python3-gi
- but it likely involves GoObject introspection.
+ replaced by python3-cairo, and python-gtk2 has been replaced by python3-gi.
  NOTE THAT PYTHONGTK2 IS DEPRECATED, GUI.PY IS WRITTEN IN IT, AND A REPLACEMENT 
  WILL NEED TO BE WORKED ON.
  .
