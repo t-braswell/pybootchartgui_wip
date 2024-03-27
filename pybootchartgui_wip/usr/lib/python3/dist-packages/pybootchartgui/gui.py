@@ -12,6 +12,9 @@
 
 #  You should have received a copy of the GNU General Public License
 #  along with pybootchartgui. If not, see <http://www.gnu.org/licenses/>.
+from gi import pygtkcompat
+pygtkcompat.enable()
+pygtkcompat.enable_gtk(version = '3.0')
 
 import gobject
 import gtk
