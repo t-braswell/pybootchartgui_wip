@@ -1,0 +1,5 @@
+?package(pybootchartgui):\
+  needs="X11" \
+  section="Applications/System/Monitoring" \
+  title="pyBootchartGUI" \
+  command="/usr/bin/pybootchartgui"
